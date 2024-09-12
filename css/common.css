@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* コピペ用コード */
+:root {
+  /* フォントサイズ */
+  --font-10: 0.625rem; /* 12px */
+  --font-12: 0.75rem; /* 12px */
+  --font-13: 0.8125rem; /* 13px */
+  --font-14: 0.875rem; /* 14px */
+  --font-16: 1rem; /* 16px */
+  --font-20: 1.25rem; /* 20px */
+  --font-24: 1.5rem; /* 24px */
+  --font-28: 1.75rem; /* 28px */
+  --font-32: 2rem; /* 32px */
+  --font-36: 2.25rem; /* 36px */
+
+  /* 文字カラー */
+  --font-black: #333;
+  --font-white: #fff;
+
+  /* ラインカラー */
+  --line-black: #000;
+  --line-white: #fff;
+
+  /* 背景色 */
+  --bg-main: #e6e2d7;
+  --bg-footer: #000;
+  --bg-yellow: rgba(249, 233, 6, 0.6);
+  --bg-red: rgba(149, 42, 38, 0.6);
+
+  /* ボタンカラー */
+  --btn-color: #4b4b4b;
+}
+
+/* メディアクエリ */
+/* @media screen and (max-width: 768px) {
+} */
+
+/* 共通 */
+body {
+  font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: var(--font-black);
+}
+
+a {
+  color: var(--font-black);
+}
+
+.hidden {
+  display: none;
+}
+
+/* セクションタイトル */
+.sec__ttl {
+}

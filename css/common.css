@@ -344,6 +344,7 @@ img {
 
 .menu--left {
   border-right: 1px solid var(--line-black);
+  padding-bottom: 25px;
 }
 
 @media screen and (max-width: 768px) {
@@ -352,10 +353,14 @@ img {
   }
 }
 
+.menu--right {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
 @media screen and (max-width: 768px) {
   .menu--right {
-    display: flex;
-    flex-direction: column;
     gap: 35px;
   }
 }

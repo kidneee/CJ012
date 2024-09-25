@@ -435,6 +435,14 @@ img {
   margin-bottom: 20px;
 }
 
+.location__map iframe {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
 .location__address {
   font-size: var(--text-1);
   line-height: 1.69;
